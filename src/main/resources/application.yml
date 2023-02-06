@@ -1,0 +1,19 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQL5Dialect
+    generate-ddl: true
+  datasource:
+    fungun:
+      jdbc-url: jdbc:mysql://localhost:3306/funGun?characterEncoding=latin1&useConfigs=maxPerformance
+      username: root
+      password: log500900500
+      driver-class-name: com.mysql.jdbc.Driver
+    gunfun:
+      jdbc-url: jdbc:mysql://localhost:3306/gunFun?characterEncoding=latin1&useConfigs=maxPerformance
+      username: root
+      password: log500900500
+      driver-class-name: com.mysql.jdbc.Driver
+
